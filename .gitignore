@@ -1,0 +1,44 @@
+# Python / 打包 / 编辑器缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/
+
+# 环境变量与本地配置
+.env
+.env.*
+*.pem
+*.key
+
+# 权重、数据与日志输出
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pkl
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.bin
+*.log
+events.out.tfevents.*
+data/
+datasets/
+checkpoints/
+weights/
+runs/
+logs/
+results/
+
+# 不公开的文档
+README.md
+docs/

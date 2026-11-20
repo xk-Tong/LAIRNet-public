@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lairnet"
+version = "0.1.0"
+description = "LAIRNet：基于轻量级注意力可逆网络的大容量鲁棒图像水印架构"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.3", "einops>=0.7"]
+
+[tool.setuptools.packages.find]
+include = ["lairnet*"]
+
+[tool.setuptools.package-data]
+"lairnet.third_party.mambair" = ["LICENSE"]
